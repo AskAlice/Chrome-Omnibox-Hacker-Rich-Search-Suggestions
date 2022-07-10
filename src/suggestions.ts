@@ -22,5 +22,5 @@ suggestions.push(
 );
 suggestions.push(new Suggestion('ghe', ['ghs'], `https://github.sie.sony.com/search?q=${search}`, 'github.png', 'Sony Github Org Search'));
 suggestions.push(new Suggestion('jira', [], `https://jira.sie.sony.com/issues/?jql=key%20%3D%20${search}`, 'jira.png', 'Sony Jira Search'));
-
+suggestions.push(new Suggestion('scorpio', ['sco'], `https://jira.sie.sony.com/browse/SCORPIO-${search}`, 'jira.png', 'Sony Jira Search'));
 export default suggestions;
